@@ -1,7 +1,7 @@
 import { BackgroundPattern } from "@/app/background-pattern";
 import Nav from "@/components/nav-panel";
 
-import InitPage from "@/pages/init-page";
+import HomePage from "@/pages/home-page";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <BackgroundPattern />
       <Nav />
 
-      <InitPage />
+      <HomePage />
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-export default function InitPage() {
+export default function HomePage() {
   return (
     <>
       <section className="fixed top-24 inset-x-4 h-16 py-24 flex flex-col items-center text-center gap-8">
